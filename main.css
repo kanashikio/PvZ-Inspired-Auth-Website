@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    color: black;
+}
+
+body{
+    margin: 1rem;
+    min-height: 45rem;
+    overflow: hidden;
+    background-color: rgb(0, 75, 0);
+}
+
+#reg, #update{
+    margin-left: 43vw;
+    margin-block: 4vw;
+    display: flex;
+    max-width: 25%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(254, 254, 254);
+    border-radius: 10px;
+    padding: 3rem 5rem;
+    height: 500px;
+    
+}
+
+.reg, .update{
+    font-family: 'Poppins';
+    margin-bottom: 30px;
+    color: rgb(190, 11, 11);
+    font-size: 25px;
+}
+
+.brand{
+    width: 311.7px;
+    float: left;
+    position: absolute;
+    border: 15px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-left: 22vw;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: green;
+    font-size: 35px;
+}
+
+div{
+    margin-bottom: 10px;
+    color: white;
+}
+
+#address, #pos{
+    margin-bottom: 20px;
+}
+
+input{
+    background: transparent;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-bottom: 1.5px solid black;
+    border-color: black;
+}
+
+input:focus{
+    outline: none;
+}
+
+.note{
+    font-size: 18.5px;
+    font-weight: bold;
+    color: #000000;
+}
+
+
+::placeholder{
+    color: rgb(0, 0, 0);
+    opacity: 0.7;
+}
+
+#info{
+    display: flex;
+}
+
+#personal input{
+    height: 30px;
+    width: 5cm;
+}
+
+#info .email input{
+    width: 5cm;
+    height: 30px;
+}
+
+#info .age{
+    margin-left: 5px;
+}
+
+#info .age input{
+    width: 5cm;
+    height: 30px;
+}
+
+#create input, #passw input{
+    width: 10cm;
+    height: 35px;
+}
+
+.submit{
+    padding-top: 30px;
+    display: flex;
+}
+
+.submit button{
+    width: 25rem;
+    height: 2.5rem;
+    border: 1px solid rgb(190, 11, 11);
+    border-radius: 5px;
+    background-color: rgb(190, 11, 11); 
+    font-family: 'Poppins';
+    color: white;
+    font-weight: 600;
+    font-size: medium;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.submit button:hover{
+    background: green;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255);
+    cursor: pointer;
+}
+
+.hvacc{
+    padding-bottom: 50px;
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+.hvacc a{
+    color: purple;
+}
+
+.hvacc a:hover{
+    color: green;
+}
+
+/**********login************/
+
+#reg2{
+    margin-left: 22vw;
+    margin-block: 6vw;
+    display: flex;
+    max-width: 350px;
+    background-color: whitesmoke;
+    border: 1px solid rgb(254, 254, 254);
+    border-radius: 10px;
+    padding: 3rem 5rem;
+    height: 425px;
+    
+}
+
+.plants{
+    width: 349px;
+    float: left;
+    position: absolute;
+    border: 15px solid whitesmoke;
+    border-radius: 10px;
+    margin-left: 55vw;
+}
+
+header{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: green;
+    font-size: 35px;
+    margin-top: 17px;
+}
+
+.acc{
+    font-family: 'Poppins';
+    margin-bottom: 30px;
+    color: rgb(190, 11, 11);
+    font-size: 25px;
+}
+
+.note2{
+    font-size: 19px;
+    font-weight: bold;
+    color: black;
+    margin-top: 40px;
+}
+
+.username input, .pw input{
+    width: 10cm;
+    height: 40px;
+}
+
+.login{
+    margin-top: 30px;
+    display: flex;
+}
+
+.login button{
+    width: 23.5rem;
+    height: 2.5rem;
+    border: 1px solid rgb(190, 11, 11);
+    border-radius: 5px;
+    background-color: rgb(190, 11, 11); 
+    font-family: 'Poppins', serif;
+    color: white;
+    font-weight: 600;
+    font-size: medium;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.login button:hover{
+    background: green;
+    color: rgb(255, 255, 255);
+    border: 1px solid green;
+    cursor: pointer;
+}
+
+.noacc p{
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.noacc a{
+    color: purple;
+}
+
+.noacc a:hover{
+    color: green;
+}
+
+/*********update************/
+
+.balloon{
+    width: 357.5px;
+    float: left;
+    position: absolute;
+    border: 15px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-left: 19vw;
+}
+
+/*********sure**********/
+
+.info{
+    width: 70px;
+    position: absolute;
+    left: 35vw;
+    top: 16.55vw;
+    display: flex;
+}
+
+#prompt{
+    max-width: 30%;
+    height: 250px;
+    margin-left: 33vw;
+    margin-top: 15vw;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(254, 254, 254);
+    border-radius: 10px;
+    padding-inline: 30px;
+    padding-block: 10px;
+}
+
+.logout{
+    margin-left: 55px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.sure{
+    margin-block: 40px;
+    font-size: 20px;
+    font-size: 'Poppins';
+    margin-left: 25px;
+}
+
+.yesno{
+    margin-left: 14px;
+}
+
+.yesno button{
+    text-decoration: none;
+    padding: 10px 90px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.no{
+    border: 1px solid rgb(0, 75, 0);
+    border-radius: 5px;
+    background-color: rgb(0, 75, 0);
+    color: white;
+}
+
+.no:hover{
+    background-color: rgb(190, 11, 11);
+    border: 1px solid rgb(190, 11, 11);
+}
+
+.yes{
+    border: 1px solid rgb(0, 75, 0);
+    border-radius: 5px;
+    background-color: rgb(0, 75, 0);
+    color: white;
+}
+
+.yes:hover{
+    background-color: rgb(190, 11, 11);
+    border: 1px solid rgb(190, 11, 11);
+}
+
+

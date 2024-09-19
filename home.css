@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    color: black;
+}
+
+body{
+    margin: 1rem;
+    min-height: 45rem;
+    overflow: hidden;
+    background-image: url(img/tr.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hand{
+    position: absolute;
+    width: 350px;
+    left: 0;
+    top: 53%;
+}
+
+.dave{
+    position: absolute;
+    width: 400px;
+    left: 78%;
+    bottom: 34%;
+}
+
+#nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 60px;
+    z-index: 100;
+    margin-right: 0px;
+}
+
+#nav .logo p{
+    background: linear-gradient( rgb(190, 11, 11, 0.786),rgb(0, 75, 0));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Helvetica, sans-serif;
+    font-size: 3rem;
+    margin-left: 180px;
+    margin-top: 25px;
+}
+
+#nav .logo .icon{
+    width: 115px;
+    position: absolute;
+    left: 70px;
+}
+
+#nav .link{
+    margin-top: 20px;
+}
+
+#nav .link a{
+    padding: 0 10px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.link .up{
+    margin-right: 0;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 75, 0);
+    border: 2px solid rgb(0, 75, 0);
+}
+
+.link .up:hover{
+    color: white;
+    background-color: rgb(190, 11, 11);
+    border: 2px solid rgb(190, 11, 11);
+
+}
+
+.link button{
+    margin-right: 100px;
+    width: 10rem;
+    height: 2.5rem;
+    border: 1px solid rgb(190, 11, 11);
+    border-radius: 5px;
+    background-color: rgb(190, 11, 11); 
+    font-family: 'Poppins', serif;
+    color: white;
+    font-weight: 900;
+    font-size: medium;
+    text-transform: uppercase;
+}
+
+.link button:hover{
+    background: rgb(0, 75, 0);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 75, 0);
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.top .bx{
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 23rem;
+    box-shadow: 3px 3px 5px black;
+}
+
+.bottom .bx{
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 53rem;
+    box-shadow: 3px 3px 5px black;
+}
+
+.mainbox .top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*********update**************/
+.float{
+    width: 357.5px;
+    float: left;
+    position: absolute;
+    border: 15px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-left: 19vw;
+}
